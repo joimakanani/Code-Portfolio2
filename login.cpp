@@ -187,3 +187,98 @@ void outputResults(char user[], char username[], char password1[], bool fail[], 
     
     outFile.close();
 }
+
+/*
+txt. for program:
+
+User:       
+Username:   Linda
+Status:     Invalid
+Reason(s):  Username is less than 10 chars in length
+Username does not contain 1 lowercase
+Password:   Carlson
+Status:     Invalid
+Reason(s):  Password is less than 8 chars in length
+Passwords do not match
+Password does not contain 1 digit
+
+User:       
+Username:   N9r%ZCVD
+Status:     Invalid
+Reason(s):  Username is less than 10 chars in length
+Password:   N9r%ZCVD
+Status:     Invalid
+Reason(s):  Passwords do not match
+
+User:       Collins
+Username:   bigDeal100
+Status:     Valid
+Password:   9Pu$kmXF
+Status:     Valid
+
+User:       
+Username:   Katie
+Status:     Valid
+Password:   Lewis
+Status:     Invalid
+Reason(s):  Passwords do not match
+Password does not contain 1 digit
+
+User:       
+Username:   NnYhdG9
+Status:     Valid
+Password:   NnYhdG9
+Status:     Invalid
+Reason(s):  Password is less than 8 chars in length
+Passwords do not match
+
+User:       Thomas
+Username:   jules1994
+Status:     Invalid
+Reason(s):  Username is less than 10 chars in length
+Username does not contain 1 uppercase
+Password:   $jules123
+Status:     Invalid
+Reason(s):  Password does not contain 1 uppercase char
+
+User:       
+Username:   Ben
+Status:     Invalid
+Reason(s):  Username is less than 10 chars in length
+Password:   Williams
+Status:     Invalid
+Reason(s):  Passwords do not match
+Password does not contain 1 digit
+
+User:       
+Username:   JRRY_XKQ
+Status:     Invalid
+Reason(s):  Username is less than 10 chars in length
+Username does not contain 1 lowercase
+Password:   JRRY_XKQ
+Status:     Invalid
+Reason(s):  Passwords do not match
+Password does not contain 1 digit
+Password does not contain 1 lowercase char
+
+User:       Hill
+Username:   h1llSter00
+Status:     Valid
+Password:   &d88uQ2$
+Status:     Valid
+
+User:       
+Username:   Kevin
+Status:     Valid
+Password:   Michaels
+Status:     Invalid
+Reason(s):  Passwords do not match
+Password does not contain 1 digit
+
+User:       
+Username:   kMike_10
+Status:     Valid
+Password:   kMike_10
+Status:     Invalid
+Reason(s):  Passwords do not match
+*/
